@@ -36,8 +36,20 @@
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-success" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+            <svg class="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
+                        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+                    </linearGradient>
+                    <linearGradient id="pl-grad2" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+                    </linearGradient>
+                </defs>
+                <circle class="pl__ring" cx="100" cy="100" r="82" fill="none" stroke="url(#pl-grad1)" stroke-width="36" stroke-dasharray="0 257 1 257" stroke-dashoffset="0.01" stroke-linecap="round" transform="rotate(-90,100,100)" />
+                <line class="pl__ball" stroke="url(#pl-grad2)" x1="100" y1="18" x2="100.01" y2="182" stroke-width="36" stroke-dasharray="1 165" stroke-linecap="round" />
+            </svg>
             </div>
         </div>
         <!-- Spinner End -->
@@ -149,7 +161,7 @@
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/1.png" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">9:00 a.m</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">5:45 p.m</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
@@ -177,7 +189,7 @@
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/2.png" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">11:00 a.m</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">5:15 p.m</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
@@ -205,7 +217,7 @@
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/3.png" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">11:00 a.m</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">4:50 p.m</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
@@ -233,7 +245,7 @@
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/3.png" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">9:00 a.m</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">4:50 p.m</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
@@ -262,7 +274,7 @@
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/3.png" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">2:00 p.m</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-success text-white rounded py-1 px-3 ms-4">4:50 p.m</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
@@ -311,11 +323,9 @@
             </p>
             <h2 style="text-align: center;">Contact Details</h2>
             <ul>
-                <li>Mohan Praveen K : +91 93440 08650 </li>
-                <li>Enpathamilan S : +91 63829 14506</li>
+                <li>Mohan Praveen K: +91 93440 08650 </li>
+                <li>Enpatamilan S: +91 36829 14506&gt;</li>
             </ul>
-            <br>
-                <br>
         </div>
 </div>
     
